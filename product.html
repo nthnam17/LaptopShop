@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/product.css">
+        <!-- <link rel="stylesheet" href="./assets/img"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/reponsive.css">
+    </head>
+    <body>
+        <div class="main">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                            <ul class="header__navbar-list">
+                                <li id="signup-btn" class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"><span class="header__navbar-item--text"href="">Đăng ký</span></li>
+                                <li id="signin-btn" class="header__navbar-item header__navbar-item--strong"><span class="header__navbar-item--text" href="">Đăng nhập
+                                </span></li>
+                                <li class="header__navbar-item header__navbar-item--showqr "> Mua Online Tại Đây
+                                    <div class="header__qr">
+                                        <img src="assets/img/QRCode/qrcode_3171736_.png" alt="" class="header__qr-img">
+                                        <div class="header__qr-apps">
+                                            <a href="" class="header__qr-link">
+                                                <img src="assets/img/QRCode/logo-shopee.png" alt="" class="header__qr-apps--logo"></a>
+                                            <a href="" class="header__qr-link">
+                                                <img src="assets/img/QRCode/Lazada_logo.png" alt="" class="header__qr-apps--logo"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item header__navbar-item--shownotify header__navbar-item--arrow">
+                                    <i class="fa fa-bell" aria-hidden="true"></i>
+                                    Thông Báo
+                                    <div class="header__notify">
+                                        <header class="header__notify-header">
+                                            <h3>Thông Báo Mới</h3>
+                                        </header>
+                                        <ul class="header__notify-list">
+                                            <li class="header__notify-item">
+                                                <a href="" class="header__notify-link">
+                                                    <img src="./assets/img/Img notify/sale30.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại</span>
+                                                        <span class="header__notify--info">Giảm giá 30% cho tất cả các sản phẩm</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="header__notify-item">
+                                                <a href="" class="header__notify-link">
+                                                    <img src="./assets/img/Img notify/tragop.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại đặc biệt mùa tựu trường</span>
+                                                        <span class="header__notify--info">Trả góp 0% lãi suất hoặc tặng 2.000.000đ cho học sinh sinh viên khi mua máy tính tại Nostalgic Computer</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="header__notify-item ">
+                                                <a href="" class="header__notify-link header__notify-link--viewed">
+                                                    <img src="./assets/img/Img notify/baohanh.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại</span>
+                                                        <span class="header__notify--info">Tặng ngay bảo hành trọn đời khi mua DELL G seri</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                            <footer class="header__notify-footer">
+                                                <a href="" class="header__notify-footer--btn">Xem Tất Cả</a>
+                                            </footer>
+                                    </div>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item--separate">
+                                    Hotline
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a class="header__navbar-item--telephone" href="tel:+84988668866">0988668866</a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <div class="header__navbar--icon">
+                                        <a href=""><i class="fab fa-facebook"></i></a>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href=""><i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                    </nav>
+
+                    <div class="header-with-search">
+                            <img class="header__logo-img" src="./assets/img/logo/Logo2-removebg.png" alt="">
+                        <div class="header__search">
+                            <div class="header__search-input--wrap">
+                                <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                                <div class="header__search-history">
+                                    <p class="header__history-heading">Lịch Sử Tìm Kiếm</p>
+                                    <ul class="header__history-list">
+                                        <li class="header__history-item"><a href=""></a>Asus TUF 15</li>
+                                        <li class="header__history-item"><a href=""></a>Acer Nitro 5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__select">
+                                <span class="header__select-label">Laptop</span>
+                                <i class="header__select-icon fas fa-chevron-down"></i>
+                                <ul class="header__option">
+                                    <li><button class="header__option-item header__option-item--active">Laptop
+                                        <i class="fas fa-check"></i>
+                                    </button></li>
+                                    <li><button class="header__option-item">Pc
+                                        <i class="fas fa-check"></i>
+                                    </button></li>
+                                </ul>
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn--icon fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="header__cart">
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                <span class="header__cart-notice">3</span>
+                                <div class="header__cart-list">
+                                    <!-- No Cart -->
+                                    <img class="header__cart-img--no-cart  " src="assets/img/Img notify/nocart.png" alt="Giỏ hàng trống">
+                                    <p class="header__cart-title">Không có sản phẩm </p>
+                                    <!-- List Cart -->
+                                    <h4 class="header__cart-heading">Danh Sách Sản Phẩm</h4>
+                                    <ul class="cart__list">
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Dell5577.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Dell Inprostion 5577 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">15.000.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Core Intel i5 5670HQ</span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Gearg603.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Chuột Logitech G603 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">1.000.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Màu Đen Bt Witeless </span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Gear387.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Bàn Phím Cơ E Dra Ek387 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">600.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Type C Huano Blue Swith</span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <button class="cart__btn btn btn--primary">Mua Ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="grid">
+                    <div class="container-directional">
+                        <div class="directional-content">
+                            <a href="./index.html" class="directional-link">
+                                <i class="directional-icon fa-solid fa-house-chimney"></i>
+                                Trang Chủ
+                            </a>
+                            <i class="directional-icon fa-solid fa-angle-right"></i>
+                            <a href="" class="directional-link directional-separate">
+                                Laptop Gaming
+                            </a>
+                            <i class="directional-icon fa-solid fa-angle-right"></i>
+                            <a href="" class="directional-link directional-separate">
+                                Acer Nitro 5
+                            </a>
+                            <div class="home__container">
+                                <div class="grid">
+                                    <div class="grid__row">
+                                        <div class="container__header">
+                                            <h1 class="container__header-heading">
+                                                Laptop Acer Gaming Nitro 5 Eagle AN515-57-54MV (NH.QENSV.003) (i5 11400H/8GB Ram/512GB SSD/RTX3050 4G/15.6 inch FHD 144Hz/Win 11 mới nhất/Đen) (2021)
+                                            </h1>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid__row">
+                                        <div class="container__product">
+                                            <div class="grid__column-4-12">
+                                                <div class="product__img">
+                                                    <img src="./assets/img/Product/imgProduct/acer-nitro-5-an515-45-r9sc-r7-5800h-8gb-512gb-600x600.jpg" alt="" class="product__img-show">
+                                                    <table class="product__table">
+                                                        <tr class="product__img-list">
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-an515-57-54af-i5-11400h-16gb-512gb-600x600.jpg" alt="" class="product__img-link"></th>
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-gaming-an515-45-r6ev-r5-5600h-8gb-600x600.jpg" alt="" class="product__img-link"></th>
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-gaming-an515-45-r86d-r7-5800h-8gb-600x600.jpg" alt="" class="product__img-link"></th>
+                                                        </tr>
+                                                        <tr class="product__img-list">
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-an515-57-54af-i5-11400h-16gb-512gb-600x600.jpg" alt="" class="product__img-link"></th>
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-gaming-an515-57-553e-i5-11400h-8gb-512gb-4gb-090322-050352-600x600.jpg" alt="" class="product__img-link"></th>
+                                                            <th class="product__img-item"><img src="./assets/img/Product/imgProduct/acer-nitro-5-gaming-an515-57-74nu-i7-nhqd9sv001-600x600.jpg" alt="" class="product__img-link"></th>
+                                                        </tr>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                            <div class="grid__column-5-12">
+                                                <div class="product__info">
+                                                    <div class="product__about">
+                                                        <ul class="product__about-list">
+                                                            <li class="product__about-item header__navbar-item--separate">
+                                                                Mã Sản Phẩm: <span class="product__about-item--special">ACNT55</span>
+                                                            </li>
+                                                            <li class="product__about-item">
+                                                                Đánh Giá: <span class="product__about-item--special">500 Lượt</span>
+                                                            </li>
+                                                            <li class="product__about-item">
+                                                                Bình Luận: <span class="product__about-item--special">230 Lượt</span>
+                                                            </li>
+                                                            <li class="product__about-item">
+                                                                Lượt: <span class="product__about-item--special">2132 Lượt</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product__parameter">
+                                                        <p class="product__parameter-heading">
+                                                            Thông Số Kỹ Thuật</p>
+                                                        <ul class="product__parameter-list">
+                                                            <li class="product__parameter-item">CPU: i5 11400H</li>
+                                                            <li class="product__parameter-item">RAM: 16GB</li>
+                                                            <li class="product__parameter-item">Ổ Cứng: 512GB SSD M2 </li>
+                                                            <li class="product__parameter-item">HĐH: up to Win 11 </li>
+                                                            <li class="product__parameter-item">Màu Sắc: Đen</li>
+                                                            <li class="product__parameter-item">VGA: NVIDIA GTX1650 4GB</li>
+                                                            <li class="product__parameter-item">Màn Hình: 15.6 inch FHD 144Hz </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="product__price">
+                                                        <div class="product__price-inner">
+                                                            <p class="product__price-current">20.000.000đ</p>
+                                                            <span class="product__price-old">23.000.000đ</span>
+                                                        <span class="product__price-sale">Tiết Kiệm: 3.000.000đ</span>
+                                                        </div>
+                                                        <span class="product__price-info">Đã bao Gồm VAT</span>
+                                                        <span class="product__price-warranty">Bảo Hành 12 Tháng</span>
+                                                    </div>
+                                                    <div class="product__present">
+                                                        <div class="product__present-header">
+                                                            <h3 class="product__present-heading">Quà Tặng Và Ưu Đãi</h3>
+                                                        </div>
+                                                        <ul class="product__present-list">
+                                                            <span class="product__present-label">Bộ quà tặng siêu lớn</span>
+                                                            <li class="product__present-item">Chuột không dây</li>
+                                                            <li class="product__present-item">Tám lóp chuột</li>
+                                                            <li class="product__present-item">Đế làm mát</li>
+                                                            <li class="product__present-item">Bộ vệ sinh</li>
+                                                            <li class="product__present-item">Túi chống sốc</li>
+                                                            <li class="product__present-item">Balo Chính hãng</li>
+                                                            <li class="product__present-item">Phiếu vệ sinh máy trọn đời</li>
+                                                        </ul>
+                                                        <p class="product__present-text">Miễn Phí Giao Hàng Trên Toàn Quốc</p>
+                                                    </div>
+                                                    <div class="product__cart">
+                                                        <p class="product__cart-label">Số Lượng:</p>
+                                                        <button class="product__cart-values">
+                                                            <i class="fa-solid fa-plus product__cart-icon"></i>
+                                                        </button>
+                                                        <input value="1" class="product__cart-values" style="text-align: center;"></input>
+                                                        <button class="product__cart-values">
+                                                            <i class="fa-solid fa-minus product__cart-icon"></i>
+                                                        </button>
+                                                        <button class="product__cart-btn">
+                                                            <i class="fa-solid fa-cart-plus product__cart-icon"></i>
+                                                            <span class="product__cart-text">Thêm Vào Giỏ Hàng</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="product__buy">
+                                                        <button class="btn btn--primary product__buy-now">
+                                                            ĐẶT MUA NGAY
+                                                            <span class="product__buy-label">Giao hàng tận nơi nhanh chóng</span>
+                                                        </button>
+                                                        <div class="product__buy-pay">
+                                                            <button id="paybyvisa" class="btn product__buy-after">
+                                                                TRẢ GÓP QUA VISA MASTER
+                                                                <span class="product__buy-label">0% lãi suất chỉ từ 1tr2/tháng</span>
+                                                            </button>
+                                                            <button  class="btn product__buy-after">
+                                                                TRẢ GÓP QUA HỒ SƠ
+                                                                <span class="product__buy-label">Xét duyệt trong vòng 15 phút</span>
+                                                            </button>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid__column-3-12">
+                                                <div class="product__policy">
+                                                    <div class="product__policy-header">
+                                                        <h3 class="product__policy-heading">
+                                                            YÊN TÂM MUA HÀNG
+                                                        </h3>
+                                                    </div>
+                                                    <ul class="product__policy-list">
+                                                        <li class="product__policy-item">
+                                                            Uy tín 20 năm xây dựng và phát triển
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Sản phẩm chính hãng 100%
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Trả góp lãi suất 0% toàn bộ giỏ hàng
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Trả bảo hành tận nơi sử dụng
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Bảo hành tận nơi cho doanh nghiệp
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Ưu đãi riêng cho học sinh sinh viên
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Vệ sinh miễn phí trọn đời PC, Laptop
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="product__policy">
+                                                    <div class="product__policy-header">
+                                                        <h3 class="product__policy-heading">
+                                                            MIỄN PHÍ GIAO HÀNG
+                                                        </h3>
+                                                    </div>
+                                                    <ul class="product__policy-list">
+                                                        <li class="product__policy-item">
+                                                            Giao hàng siêu tốc trong 2h
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Giao hàng miễn phí toàn quốc
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Nhận hàng và thanh toán tại nhà (ship COD)
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Trả bảo hành tận nơi sử dụng
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Bảo hành tận nơi cho doanh nghiệp
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Ưu đãi riêng cho học sinh sinh viên
+                                                        </li>
+                                                        <li class="product__policy-item">
+                                                            Vệ sinh miễn phí trọn đời PC, Laptop
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="far fa-id-card"></i>
+                                GIỚI THIỆU
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Giới Thiệu Shop</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Địa Chỉ</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">nthnam.dev@gmail.com</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Tin Tức</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="far fa-credit-card"></i>
+                                THANH TOÁN TIỆN LỢI
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Thanh Toán Tiền Mặt</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Thanh Toán Chuyển Khoản</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Trả Góp 0% Với Thẻ Tín Dụng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Trả Góp Nhanh Qua Credit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-book-open"></i>
+                                CHÍNH SÁCH CHUNG
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Và Quy Định</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Bảo Hành</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Hàng Chính Hãng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Bảo Mật Thông Tin Khách Hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-hands-helping"></i>
+                                CHĂM SÓC KHÁCH HÀNG
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Tư Vấn Mua Hàng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Trả Góp</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Bảo Hành</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Cập Nhập Tin Tức</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">CT Khuyến Mãi Đặc Biệt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-shipping-fast"></i>
+                                GIAO HÀNG VÀ ĐỔI TRẢ
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Đổi Trả</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Giao Hàng Siêu Tốc</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">1 Đổi 1 Trong 7 Ngày</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Xử Lý Và Đóng Gói An Toàn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="grid">
+                        <p class="footer-bottom__text">© 2021 Team 8</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+         <div class="modal disable">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <div class="auth-form_icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                 <div id="sign-up" class="auth-form"> 
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng Ký</h3>
+                                <span class="auth-form__auth-switch-btn">Đăng nhập</span>
+                            </div>
+    
+                            <div class="auth-form__form">  
+                                <div class="auth-form__group">
+                                    <input type="email" class="auth-form__input" placeholder="Nhập Email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Lại Mật Khẩu">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng ký bạn đồng ý với shop
+                                    <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                                    <a href="" class="auth-form__policy-link">Quyền riêng tư</a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__control-back ">Trở Lại</button>
+                                <button class="btn btn--primary">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--size-s auth-form__social-facebook btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-facebook"></i>
+                                <span class="auth-form__social-title">
+                                    Đăng ký với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="btn btn--size-s auth-form__social-google btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-google"></i>
+                                <span class="auth-form__social-title">
+                                     Đăng ký với Google
+                                </span>
+                            </a>
+                        </div>
+                    </div> 
+                    <!-- Login Form -->
+                    <div id="sign-in" class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng Nhập</h3>
+                                <span id="switch-btn" class="auth-form__auth-switch-btn">Đăng Ký</span>
+                            </div>
+    
+                            <div class="auth-form__form">  
+                                <div class="auth-form__group">
+                                    <input type="email" class="auth-form__input" placeholder="Nhập Email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                               <div class="auth-form-help">
+                                   <a href="" class="auth-form-link auth-form-link--fogot">Quên mật khẩu</a>
+                                   <span class="auth-form--separeta"></span>
+                                   <a href="" class="auth-form-link auth-form-link--fogot">Cần trợ giúp?</a>
+                               </div>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__control-back ">Trở Lại</button>
+                                <button class="btn btn--primary">Đăng Nhập</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--size-s auth-form__social-facebook btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-facebook"></i>
+                                <span class="auth-form__social-title">
+                                    Kết Nối với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="btn btn--size-s auth-form__social-google btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-google"></i>
+                                <span class="auth-form__social-title">
+                                     Kết Nối với Google
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

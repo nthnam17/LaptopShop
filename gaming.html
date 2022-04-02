@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <!-- <link rel="stylesheet" href="./assets/img"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/reponsive.css">
+    </head>
+    <body>
+        <div class="main">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                            <ul class="header__navbar-list">
+                                <li id="signup-btn" class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"><span class="header__navbar-item--text"href="">Đăng ký</span></li>
+                                <li id="signin-btn" class="header__navbar-item header__navbar-item--strong"><span class="header__navbar-item--text" href="">Đăng nhập
+                                </span></li>
+                                <li class="header__navbar-item header__navbar-item--showqr "> Mua Online Tại Đây
+                                    <div class="header__qr">
+                                        <img src="assets/img/QRCode/qrcode_3171736_.png" alt="" class="header__qr-img">
+                                        <div class="header__qr-apps">
+                                            <a href="" class="header__qr-link">
+                                                <img src="assets/img/QRCode/logo-shopee.png" alt="" class="header__qr-apps--logo"></a>
+                                            <a href="" class="header__qr-link">
+                                                <img src="assets/img/QRCode/Lazada_logo.png" alt="" class="header__qr-apps--logo"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item header__navbar-item--shownotify header__navbar-item--arrow">
+                                    <i class="fa fa-bell" aria-hidden="true"></i>
+                                    Thông Báo
+                                    <div class="header__notify">
+                                        <header class="header__notify-header">
+                                            <h3>Thông Báo Mới</h3>
+                                        </header>
+                                        <ul class="header__notify-list">
+                                            <li class="header__notify-item">
+                                                <a href="" class="header__notify-link">
+                                                    <img src="./assets/img/Img notify/sale30.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại</span>
+                                                        <span class="header__notify--info">Giảm giá 30% cho tất cả các sản phẩm</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="header__notify-item">
+                                                <a href="" class="header__notify-link">
+                                                    <img src="./assets/img/Img notify/tragop.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại đặc biệt mùa tựu trường</span>
+                                                        <span class="header__notify--info">Trả góp 0% lãi suất hoặc tặng 2.000.000đ cho học sinh sinh viên khi mua máy tính tại Nostalgic Computer</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="header__notify-item ">
+                                                <a href="" class="header__notify-link header__notify-link--viewed">
+                                                    <img src="./assets/img/Img notify/baohanh.png" alt="" class="header__notify-img">
+                                                    <div class="header__notify-body">
+                                                        <span class="header__notify--name">Chương trình khuyến mại</span>
+                                                        <span class="header__notify--info">Tặng ngay bảo hành trọn đời khi mua DELL G seri</span>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                            <footer class="header__notify-footer">
+                                                <a href="" class="header__notify-footer--btn">Xem Tất Cả</a>
+                                            </footer>
+                                    </div>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item--separate">
+                                    Hotline
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a class="header__navbar-item--telephone" href="tel:+84988668866">0988668866</a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <div class="header__navbar--icon">
+                                        <a href=""><i class="fab fa-facebook"></i></a>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href=""><i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                    </nav>
+
+                    <div class="header-with-search">
+                            <img class="header__logo-img" src="./assets/img/logo/Logo2-removebg.png" alt="">
+                        <div class="header__search">
+                            <div class="header__search-input--wrap">
+                                <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                                <div class="header__search-history">
+                                    <p class="header__history-heading">Lịch Sử Tìm Kiếm</p>
+                                    <ul class="header__history-list">
+                                        <li class="header__history-item"><a href=""></a>Asus TUF 15</li>
+                                        <li class="header__history-item"><a href=""></a>Acer Nitro 5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__select">
+                                <span class="header__select-label">Laptop</span>
+                                <i class="header__select-icon fas fa-chevron-down"></i>
+                                <ul class="header__option">
+                                    <li><button class="header__option-item header__option-item--active">Laptop
+                                        <i class="fas fa-check"></i>
+                                    </button></li>
+                                    <li><button class="header__option-item">Pc
+                                        <i class="fas fa-check"></i>
+                                    </button></li>
+                                </ul>
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn--icon fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="header__cart">
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                <span class="header__cart-notice">3</span>
+                                <div class="header__cart-list">
+                                    <!-- No Cart -->
+                                    <img class="header__cart-img--no-cart  " src="assets/img/Img notify/nocart.png" alt="Giỏ hàng trống">
+                                    <p class="header__cart-title">Không có sản phẩm </p>
+                                    <!-- List Cart -->
+                                    <h4 class="header__cart-heading">Danh Sách Sản Phẩm</h4>
+                                    <ul class="cart__list">
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Dell5577.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Dell Inprostion 5577 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">15.000.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Core Intel i5 5670HQ</span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Gearg603.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Chuột Logitech G603 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">1.000.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Màu Đen Bt Witeless </span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart__item">
+                                            <img src="assets/img/Product/Gear387.jpg" alt="" class="cart__item-img">
+                                            <div class="cart__item-info">
+                                               <div class="cart__item-head">
+                                                   <h5 class="cart__item-name">Bàn Phím Cơ E Dra Ek387 </h5>
+                                                   <div class="cart__item-pay">
+                                                    <span class="cart__item-price">600.000đ</span>
+                                                    <span class="cart__item-multipy">x</span>
+                                                    <span class="cart__item-quantity">1</span>
+                                                   </div>
+                                               </div>
+                                               <div class="cart__item-body">
+                                                   <span class="cart__item-type">Loại: Type C Huano Blue Swith</span>
+                                                   <span class="cart__item-remove">Xóa</span>
+                                               </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <button class="cart__btn btn btn--primary">Mua Ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="grid">
+                    <div class="container-directional">
+                        <div class="directional-content">
+                            <a href="./index.html" class="directional-link">
+                                <i class="directional-icon fa-solid fa-house-chimney"></i>
+                                Trang Chủ
+                            </a>
+                            <i class="directional-icon fa-solid fa-angle-right"></i>
+                            <a href="" class="directional-link directional-separate">
+                                Laptop Gaming
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__row content">
+                        
+                        <div class="grid__column-2">
+                            <nav class="category">
+                                <h3 class="category__heading">
+                                    <i class="category__heading-icon fas fa-list"></i>
+                                    Danh Mục</h3>
+                                <div class="category__option">
+                                    <!-- Theo Hãng -->
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            HÃNG SẢN XUẤT
+                                        </h4>
+                                        <div class="category__option-inner">
+                                            <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop ACER
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop ASUS
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop DEll
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop HP
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop LENOVO
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop MSI
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Laptop GIGABYTE
+                                                </label>
+                                              </div>
+                                        </div>
+                                            
+                                    </div>
+
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            THEO KHOẢNG GIÁ 
+                                        </h4>
+                                       <div class="category__option-inner">
+
+                                           <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 15tr - 20tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 20tr - 25tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 25tr - 30tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 30tr - 35tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 35tr - 40tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 40tr - 45tr
+                                               </label>
+                                             </div>
+                                             <div class="category__option-item">
+                                               <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                               <label class="category__option-label">
+                                                   Từ 45tr - 50tr
+                                               </label>
+                                             </div>
+                                             <div class="category__price">
+                                                 <input type="text" placeholder="Nhập Số Tiền Bạn Có" class="category__price-input ">
+                                                 <button class="btn btn--size-s btn--primary category__price-btn">Lọc</button>
+                                             </div>
+                                       </div>
+                                    </div>
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            THEO CPU
+                                        </h4>
+                                        <div class="category__option-inner">
+
+                                            <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Intel Core i5 
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Intel Core i7
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Intel Core i9
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    AMD Ryzen3
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    AMD Ryzen5
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    AMD Ryzen7
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    AMD Ryzen9
+                                                </label>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            THEO RAM
+                                        </h4>
+                                        <div class="category__option-inner">
+
+                                            <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 6GB
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 8GB
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 12GB
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 16GB
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 32GB
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    RAM 64GB
+                                                </label>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            THEO VGA
+                                        </h4>
+                                        <div class="category__option-inner">
+                                            <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    VGA AMD
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    VGA NVIDIA
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    VGA Onboard
+                                                </label>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="category__option-list">     
+                                        <h4 class="category__option-heding">
+                                            THEO Ổ CỨNG
+                                        </h4>
+                                        <div class="category__option-inner">
+                                            <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Chỉ có HDD
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Chỉ có SSD
+                                                </label>
+                                              </div>
+                                              <div class="category__option-item">
+                                                <input class="category__option-input" type="checkbox" value="" id="option-dell">
+                                                <label class="category__option-label">
+                                                    Cả HDD và SSD
+                                                </label>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn--size-m btn--primary category__option-btn">Tìm Kiếm</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="grid__column-10">
+                            <div class="home-filter">
+                                <span class="home-filter__title">Sắp xếp theo</span>
+                                <button class="btn home-filter__btn btn--size-s">Phổ biến</button>
+                                <button class="btn btn--primary home-filter__btn btn--size-s">Mới nhất</button>
+                                <button class="btn home-filter__btn btn--size-s">Bán chạy</button>
+
+                                <div class="seclect__input">
+                                    <span class="seclect__input-label">Giá</span>
+                                    <i class="seclect__input-icon fas fa-chevron-down"></i>
+                                    <ul class="seclect__input-list">
+                                        <li class="seclect__input-item"><a href="" class="seclect__input-link">Giá: Từ 10tr Đến 15tr</a></li>
+                                        <li class="seclect__input-item"><a href="" class="seclect__input-link">Giá: Từ 15tr Đến 20tr</a></li>
+                                        <li class="seclect__input-item"><a href="" class="seclect__input-link">Giá: Từ 20tr Đến 25tr</a></li>
+                                    </ul>
+                                </div>
+                                <div class="home-filter__page">
+                                    <span class="home-filter__num">
+                                        <span class="home-filter__current">1</span>
+                                        /14
+                                    </span>
+                                    <div class="home-filter__control">
+                                        <a href="" class="home-filter__control-btn">
+                                            <i class="home-filter__control-icon fas fa-angle-left"></i>
+                                        </a>
+                                        <a href="" class="home-filter__control-btn">
+                                            <i class="home-filter__control-icon fas fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selection">
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gear" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item"> Edra</li>
+                                                    <li class="selection-item"> Fullhen</li>
+                                                    <li class="selection-item"> Darue</li>
+                                                    <li class="selection-item"> Keychron</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="selection-gaming" class="home-selection ">
+                                    <div class="grid__row">
+                                        <div class="selection-inner">
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Hãng Sản Xuất
+                                                    <li class="selection-item">Laptop Dell</li>
+                                                    <li class="selection-item">Laptop Acer</li>
+                                                    <li class="selection-item">Laptop Asus</li>
+                                                </ul>
+                                            </div> 
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Giá Thành
+                                                    <li class="selection-item">DưỚi 20 Triệu</li>
+                                                    <li class="selection-item">Từ 20tr -> 30tr</li>
+                                                    <li class="selection-item">Từ 30tr chở lên</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo CPU
+                                                    <li class="selection-item">Intel Core i5</li>
+                                                    <li class="selection-item">Intel Core i7</li>
+                                                    <li class="selection-item">AMD Ryzen 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo VGA
+                                                    <li class="selection-item">Card Nvidia</li>
+                                                    <li class="selection-item">Card AMD</li>
+                                                    <li class="selection-item">Card Onboard</li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid-column-2-4">
+                                                <ul class="selection-list">
+                                                    Theo Nhu Cầu
+                                                    <li class="selection-item">Tần Số Mh</li>
+                                                    <li class="selection-item">Kích thướng Mh</li>
+                                                    <li class="selection-item">Trọng lượng</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home__container">
+                                <!-- Laptop gaming  -->
+                                <div class="home__container-list item--active ">
+                                    <div class="grid__row .mb-8">
+                                        <!-- Home Product -->
+                                        <div class="grid__column-2-4">
+                                            <a href="./product.html" class="home__container-link">
+                                                <div class="home__container-item">
+                                                    <div class="home__container-item__img" style="background-image: url();"></div>
+                                                    <h4 class="home__container-item__product"> Laptop Acer Gaming Nitro 5 Eagle AN515-57-54MV (NH.QENSV.003) (i5 11400H/8GB Ram/512GB SSD/RTX3050 4G/15.6 inch FHD 144Hz/Win 11 mới nhất/Đen) (2021) </h4>
+                                                    <div class="home__container-item__price">
+                                                        <span class="home__container-item__price-old">26.000.000đ</span>
+                                                        <span class="home__container-item__price-current">25.500.000đ</span>
+                                                    </div>
+                                                    <div class="home__container-item__action">
+                                                        <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                            <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                            <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                        </span>
+                                                        <span class="home__container-item__action-rating">
+                                                            <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                            <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                            <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                            <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                            <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                        </span>
+                                                        <span class="home__container-item__action-sold">88 Đã bán</span>
+                                                    </div>
+                                                    <div class="home__container-item__info">
+                                                        <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                            <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                            Còn Hàng
+                                                        </span>
+                                                        <!-- <span class="home__container-item__info-still--contact ">
+                                                            <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                            Liên Hệ
+                                                        </span> -->
+                                                        <span class="home__container-item__info-cart">
+                                                            <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="home__container-item__favourite">
+                                                        <i class="fas fa-check"></i>
+                                                        <span>Yêu Thích</span>
+                                                    </div>
+                                                    <div class="home__container-item__saleoff">
+                                                        <span class="home__container-item__saleoff-label">Sale</span>
+                                                        <span class="home__container-item__saleoff-percent">10%</span>
+                                                    </div>                                       
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://hanoicomputercdn.com/media/product/250_58034_fx506__6_.jpg);"></div>
+                                                <h4 class="home__container-item__product"> Laptop Asus Gaming TUF FX506LH-HN002T (i5 10300H/8GB RAM/512GB SSD/15.6 FHD 144Hz /GTX 1650 4GB/Win10/Xám)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">23.000.000đ</span>
+                                                    <span class="home__container-item__price-current">22.500.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">1192 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://hanoicomputercdn.com/media/product/250_58426_laptop_lenovo_legion_5_pro_16ach6h_82jq001vvn_xam_2.png);"></div>
+                                                <h4 class="home__container-item__product"> Laptop Lenovo Legion 5 Pro 16ACH6H (82JQ001VVN) (R7 5800H/16GB RAM/512GB SSD/16 165hz/RTX3060 6G/Win/Xám) </h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">44.000.000đ</span>
+                                                    <span class="home__container-item__price-current">42.500.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">301 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url();"></div>
+                                                <h4 class="home__container-item__product"> Laptop Asus Gaming ROG Zephyrus GA401QH-HZ035T (R7 5800HS/8GB RAM/512GB SSD/14 FHD 144hz/GTX 1650 4GB/Win10/Túi/Xám)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">29.000.000đ</span>
+                                                    <span class="home__container-item__price-current">28.700.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">100 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url();"></div>
+                                                <h4 class="home__container-item__product">Laptop Dell Gaming G3 15 G3500C (P89F002G3500C) (i7 10750H/16GB RAM/1TB HDD+256GB SSD/15.6 inch FHD 120Hz/GTX1650Ti 4G/Win10/Đen) (2021)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">29.000.000đ</span>
+                                                    <span class="home__container-item__price-current">27.890.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">1097 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        
+                                     </div>
+                                    
+                                     <div class="grid__row">
+                                        <!-- Home Product -->
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://phucanhcdn.com/media/product/250_45092_thinkbook_15_g2_itl_ha1.jpg);"></div>
+                                                <h4 class="home__container-item__product">Laptop Lenovo Thinkbook 15 G2 ITL 20VE00G8VN (Core i5 1135G7/ 8Gb/ 512Gb SSD/ 15.6 FHD/ MX450 2GB/DOS/ Grey/ nhôm</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">21.900.000đ</span>
+                                                    <span class="home__container-item__price-current">21.800.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">88 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://phucanhcdn.com/media/product/250_44953_inspiron_3501_black_ha4.jpg);"></div>
+                                                <h4 class="home__container-item__product"> Laptop Dell Inspiron 3501 70253897 (i5 1135G7/ 8Gb/512Gb SSD/ 15.6" FHD/ MX330 2GB / Win10+OfficeHS19/Black)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">22.500.000đ</span>
+                                                    <span class="home__container-item__price-current">21.500.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">11342 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://phucanhcdn.com/media/product/250_45711_lenovo_v15_15iil_ha7.jpg);"></div>
+                                                <h4 class="home__container-item__product"> Laptop Lenovo Ideapad 5 Pro 16ACH6 82L50097VN (Ryzen5 5600H / 8Gb/ 512Gb SSD/ 16” WQXGA 350N 120Hz SRGB/ GTX 1650 4G/ Win11/ Storm Grey/ vỏ nhôm) </h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">17.000.000đ</span>
+                                                    <span class="home__container-item__price-current">16.600.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">301 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://phucanhcdn.com/media/product/250_45533_asus_pro_vivobook_m3500_quiet_blue_ha1s.jpg);"></div>
+                                                <h4 class="home__container-item__product"> Laptop Asus Pro Vivobook M3500QC-L1085T (R7-5800H/ 16GB/ 512GB SSD/ 15.6 OLED FHD/ RTX 3050 Max Q 4GB/ Win10/ Xanh xám)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">30.000.000đ</span>
+                                                    <span class="home__container-item__price-current">28.700.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">2330 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home__container-item">
+                                                <div class="home__container-item__img" style="background-image: url(https://phucanhcdn.com/media/product/250_45712_hp_victus_16_black_ha1.jpg);"></div>
+                                                <h4 class="home__container-item__product">Laptop HP VICTUS 16-d0198TX 4R0U0PA (I7-11800H/ 8GB/ 512GB+32GB SSD/ 16.1FHD, 144Hz/ RTX3050 TI 4GB/ Win 10/ Black)</h4>
+                                                <div class="home__container-item__price">
+                                                    <span class="home__container-item__price-old">32.890.000đ</span>
+                                                    <span class="home__container-item__price-current">31.890.000đ</span>
+                                                </div>
+                                                <div class="home__container-item__action">
+                                                    <span class="home__container-item__action-like home__container-item__action-like--liked">
+                                                        <i class="home__container-item__action-like--icon far fa-heart"></i>
+                                                        <i class="home__container-item__action-liked--icon fas fa-heart"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-rating">
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon home__container-item__action-rating--rated fas fa-star"></i>
+                                                        <i class="home__container-item__action-rating-icon fas fa-star"></i>
+                                                    </span>
+                                                    <span class="home__container-item__action-sold">1923 Đã bán</span>
+                                                </div>
+                                                <div class="home__container-item__info">
+                                                    <span class="home__container-item__info-still home__container-item__info-still--end">
+                                                        <i class="home__container-item__info-stil--icon fas fa-check"></i>
+                                                        Còn Hàng
+                                                    </span>
+                                                    <!-- <span class="home__container-item__info-still--contact ">
+                                                        <i class="home__container-item__info-still--contact-icon fas fa-phone-square-alt"></i>
+                                                        Liên Hệ
+                                                    </span> -->
+                                                    <span class="home__container-item__info-cart">
+                                                        <i class="home__container-item__info-cart--icon fas fa-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="home__container-item__favourite">
+                                                    <i class="fas fa-check"></i>
+                                                    <span>Yêu Thích</span>
+                                                </div>
+                                                <div class="home__container-item__saleoff">
+                                                    <span class="home__container-item__saleoff-label">Sale</span>
+                                                    <span class="home__container-item__saleoff-percent">10%</span>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        
+                                     </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <ul class="pagination home-pagination">
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">
+                                        <i class="pagination__item-icon fas fa-angle-left">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="pagination__item pagination__item--active">
+                                    <a href="" class="pagination__item-link">1</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">2</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">3</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">4</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">5</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">...</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">14</a>
+                                </li>
+                                <li class="pagination__item">
+                                    <a href="" class="pagination__item-link">
+                                        <i class="pagination__item-icon fas fa-angle-right">
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="far fa-id-card"></i>
+                                GIỚI THIỆU
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Giới Thiệu Shop</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Địa Chỉ</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">nthnam.dev@gmail.com</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Tin Tức</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="far fa-credit-card"></i>
+                                THANH TOÁN TIỆN LỢI
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Thanh Toán Tiền Mặt</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Thanh Toán Chuyển Khoản</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Trả Góp 0% Với Thẻ Tín Dụng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Trả Góp Nhanh Qua Credit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-book-open"></i>
+                                CHÍNH SÁCH CHUNG
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Và Quy Định</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Bảo Hành</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Chính Sách Hàng Chính Hãng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Bảo Mật Thông Tin Khách Hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-hands-helping"></i>
+                                CHĂM SÓC KHÁCH HÀNG
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Tư Vấn Mua Hàng</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Trả Góp</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Bảo Hành</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Cập Nhập Tin Tức</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">CT Khuyến Mãi Đặc Biệt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <div class="footer-heading">
+                                <i class="fas fa-shipping-fast"></i>
+                                GIAO HÀNG VÀ ĐỔI TRẢ
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="" class="footer__item-link">Hỗ Trợ Đổi Trả</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Giao Hàng Siêu Tốc</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">1 Đổi 1 Trong 7 Ngày</a></li>
+                                    <li class="footer__item"><a href="" class="footer__item-link">Xử Lý Và Đóng Gói An Toàn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="grid">
+                        <p class="footer-bottom__text">© 2021 Team 8</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+         <div class="modal disable">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <div class="auth-form_icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                 <div id="sign-up" class="auth-form"> 
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng Ký</h3>
+                                <span class="auth-form__auth-switch-btn">Đăng nhập</span>
+                            </div>
+    
+                            <div class="auth-form__form">  
+                                <div class="auth-form__group">
+                                    <input type="email" class="auth-form__input" placeholder="Nhập Email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Lại Mật Khẩu">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng ký bạn đồng ý với shop
+                                    <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                                    <a href="" class="auth-form__policy-link">Quyền riêng tư</a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__control-back ">Trở Lại</button>
+                                <button class="btn btn--primary">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--size-s auth-form__social-facebook btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-facebook"></i>
+                                <span class="auth-form__social-title">
+                                    Đăng ký với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="btn btn--size-s auth-form__social-google btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-google"></i>
+                                <span class="auth-form__social-title">
+                                     Đăng ký với Google
+                                </span>
+                            </a>
+                        </div>
+                    </div> 
+                    <!-- Login Form -->
+                    <div id="sign-in" class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng Nhập</h3>
+                                <span id="switch-btn" class="auth-form__auth-switch-btn">Đăng Ký</span>
+                            </div>
+    
+                            <div class="auth-form__form">  
+                                <div class="auth-form__group">
+                                    <input type="email" class="auth-form__input" placeholder="Nhập Email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                               <div class="auth-form-help">
+                                   <a href="" class="auth-form-link auth-form-link--fogot">Quên mật khẩu</a>
+                                   <span class="auth-form--separeta"></span>
+                                   <a href="" class="auth-form-link auth-form-link--fogot">Cần trợ giúp?</a>
+                               </div>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__control-back ">Trở Lại</button>
+                                <button class="btn btn--primary">Đăng Nhập</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--size-s auth-form__social-facebook btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-facebook"></i>
+                                <span class="auth-form__social-title">
+                                    Kết Nối với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="btn btn--size-s auth-form__social-google btn--with-icon">
+                                <i class="auth-form__social-icon fab fa-google"></i>
+                                <span class="auth-form__social-title">
+                                     Kết Nối với Google
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
