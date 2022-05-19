@@ -1,13 +1,49 @@
 @media (min-width: 1366px){
 
 }
+/* Table */
 @media(min-width: 1024px) and (max-width: 1365px){
     .header__navbar{
         width: 100%;
     }
 }
+
+
+/* Mobile */
 @media(max-width: 1023px){
+
+    .rs__mobile{
+        display: block !important;
+    }
     .header__navbar{
         width: 100%;
+    }
+    .header__navbar-list{
+        display: none;
+    }
+    .header{
+        height: 60px;
+    }
+    .header__search{
+        display: none;
+    }
+    .header__cart{
+
+    }
+    .header__cart-icon{
+        font-size: 2rem;
+    }
+    .header__logo-img{
+        width: 50%;
+    }
+    .rs__mobile-icon{
+        font-size: 2rem;
+        color: var(--white-color);
+    }
+    .category{
+        display: none;
+    }
+    .home-filter{
+        display: none;
     }
 }

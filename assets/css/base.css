@@ -7,7 +7,7 @@
     --white-color: rgb(255, 255, 255);
     --border-color:  #ccc;
     --disable-color: #7e7b7b;
-
+    --star-color: rgb(246,246,0);
     --navbar-height: 37px;
     --header-height: 120px;
     --search-height: calc(var(--header-height) - var(--navbar-height));
@@ -54,6 +54,11 @@ html {
     padding-right: 5px;
     width: 83.3332%;
 }
+.grid__column-8-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 66.6667%;
+}
 .grid__column-5-12 {
     padding-left: 5px;
     padding-right: 5px;
@@ -62,7 +67,7 @@ html {
 .grid__column-4-12 {
     padding-left: 5px;
     padding-right: 5px;
-    width: 33.3333%;
+    width: 33.3334%;
 }
 .grid__column-3-12 {
     padding-left: 5px;
@@ -226,4 +231,18 @@ html {
 }
 .pagination__item--active:hover .pagination__item-link{
     opacity: 0.85;
+}
+.label_table{
+    background-color: #eee;
+    padding: 0;
+}
+ td{
+     padding: 3px;
+     border: none;
+ } 
+.icon__size-l{
+    font-size: 4rem;
+}
+.color--primary{
+    color: var(--primary-color);
 }
